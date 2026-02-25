@@ -2,8 +2,7 @@ name: Build
 
 on:
   push:
-    branches: [ "fix/**" ]
-  workflow_dispatch:
+    branches: [ "fix/**", "ci/**" ]
 
 jobs:
   build:
